@@ -1,30 +1,4 @@
 # tablip
-tablip can deal & generate multi-type of file.
-
-tablip可以处理和生成多种类型文件。
-
-### 功能列表
-
-* Excel (Sets + Books) +auto column width!!!（智能调整列宽！！！）
-* JSON (Sets + Books)
-* YAML (Sets + Books)
-* Pandas DataFrames (Sets)
-* HTML (Sets)
-* Jira (Sets)
-* TSV (Sets)
-* ODS (Sets)
-* CSV (Sets)
-* DBF (Sets)
-
-
-
-### 特点
-
-* 超简单使用
-* 超强大功能
-* 导出excel文件，也就是xls格式，自动优化列宽!!!!
-
-
 
 ### 安装
 
@@ -52,13 +26,47 @@ for row in content:
 # 导出excel
 with open('test.xls','wb') as f:
     f.write(data.export('xls'))
+    https://raw.githubusercontent.com/bn0901/tablip/master/introduce.png
 ```
 
-结果展示: []
+结果展示:
+
+![avatar](https://raw.githubusercontent.com/bn0901/tablip/master/introduce.png)
+
+well done, good job!
+
+## 介绍
+
+tablip can deal & generate multi-type of file.
+
+tablip可以处理和生成多种类型文件。
+
+### 功能列表
+
+* Excel (Sets + Books) +auto column width!!!（智能调整列宽！！！）
+* JSON (Sets + Books)
+* YAML (Sets + Books)
+* Pandas DataFrames (Sets)
+* HTML (Sets)
+* Jira (Sets)
+* TSV (Sets)
+* ODS (Sets)
+* CSV (Sets)
+* DBF (Sets)
+
+
+
+### 特点
+
+* 超简单使用
+* 超强大功能
+* 导出excel文件，也就是xls格式，自动优化列宽!!!!
 
 ### 关于
 
 author:bn.zheng
 contact with email: zhengbingxian666@163.com
+
+
 
 
