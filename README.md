@@ -39,12 +39,12 @@ import tablip
 
 # 初始化表格 表名及表头
 data = tablip.Dataset()
-data.headers=['name','age']
-data.title = 'test'
+data.headers=['姓名','年龄','地址']
+data.title = '个人信息'
 
 # 写入数据
-content = [['lily','18'],
-           ['lucy','20']]
+content = [['小明','18','Stanford University'],
+           ['小王','20','Stanford University 450 Jane Stanford Way Stanford, CA 94305–2004']]
 
 for row in content:
     data.append(row)
@@ -54,7 +54,10 @@ with open('test.xls','wb') as f:
     f.write(data.export('xls'))
 ```
 
+结果展示: []
+
 ### 关于
+
 author:bn.zheng
 contact with email: zhengbingxian666@163.com
 
